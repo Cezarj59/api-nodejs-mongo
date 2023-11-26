@@ -1,6 +1,4 @@
 const express = require('express')
-const swaggerUi = require('swagger-ui-express')
-const specs = require('../swagger-config')
 const bodyParser = require('body-parser')
 const AuthController = require("./controllers/AuthController")
 const AdminController = require("./controllers/AdminController")
@@ -9,8 +7,6 @@ const authenticateMiddleware = require("./middlewares/authenticate")
 
 const app = express()
 
-// Adicione o middleware do Swagger UI
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 // Middleware para aceitar apenas dados JSON nas requisições
 app.use(express.json())
