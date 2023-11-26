@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npm start",
     "test": "mocha",
     "lint": "eslint .",
     "generate-swagger": "swagger-autogen -c ./swagger-config.js -o ./swagger-output.json ./src/**/*.js"
