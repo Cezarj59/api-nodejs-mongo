@@ -3,13 +3,14 @@
 ![Node.js](https://img.shields.io/badge/Node.js-LTS-brightgreen)
 ![Express](https://img.shields.io/badge/Express-4.17.1-blue)
 ![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
+![Mongoose](https://img.shields.io/badge/Mongoose-ODM%20for%20MongoDB-yellow)
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-Cloud%20Database-brightgreen)
 ![Render](https://img.shields.io/badge/Render-Hosting-lightgrey)
 ![Insomnia](https://img.shields.io/badge/Insomnia-API%20Testing-success)
 
 ## Visão Geral
 
-Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework Express. A API oferece operações de cadastro (sign up), autenticação (sign in), recuperação de informações do usuário e busca de usuário autenticado. Utiliza JSON como formato de comunicação, JWT para autenticação e MongoDB Atlas como banco de dados na nuvem.
+Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework Express. A API oferece operações de cadastro (sign up), autenticação (sign in), recuperação de informações do usuário e busca de usuário autenticado. Utiliza JSON como formato de comunicação, JWT para autenticação e MongoDB Atlas como banco de dados na nuvem e Mongoose utilizado para mapeamento de dados.
 
 ## Objetivos
 
@@ -25,6 +26,7 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
 - Node.js (LTS)
 - Express 4.17.1
 - JWT para autenticação
+- Mongoose (Object Data Modeling para MongoDB)
 - MongoDB Atlas para armazenamento de dados
 - Render para hospedagem
 - Insomnia para testes de API
@@ -244,14 +246,15 @@ O projeto utiliza o npm (Node Package Manager) para:
   ```bash
   npm run lint
   
-## Tecnologias Utilizadas
 
-<h3 align="left">Languages and Tools:</h3>
+
+##  <h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50"/> </a>
   <a href="https://nodejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="50" height="50"/> </a>
-  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="50" height="50"/> </a>  
+  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="50" height="50"/> </a>
   <a href="https://jwt.io/" target="_blank" rel="noreferrer"> <img src="https://jwt.io/img/pic_logo.svg" alt="jwt" width="50" height="50"/> </a>
+  <a href="https://mongoosejs.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Mongoose-ODM%20for%20MongoDB-yellow" alt="mongoose" width="50" height="50"/> </a>
   <a href="https://www.mongodb.com/cloud/atlas" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50"/> </a>
   <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="npm" width="50" height="50"/> </a>
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="50" height="50"/> </a>
@@ -259,6 +262,7 @@ O projeto utiliza o npm (Node Package Manager) para:
   <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain-wordmark.svg" alt="ubuntu" width="50" height="50"/> </a>
   <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain-wordmark.svg" alt="vscode" width="50" height="50"/> </a>
 </p>
+
 
 
 
