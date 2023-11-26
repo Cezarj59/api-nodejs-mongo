@@ -28,9 +28,6 @@
     "del": "^7.1.0",
     "eslint": "^8.54.0",
     "eslint-config-standard": "^17.1.0"
-  },
-  "engines": {
-    "node": ">=20.10.0 <21.0.0"
   }
-  
+
 }
