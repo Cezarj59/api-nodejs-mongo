@@ -30,6 +30,6 @@
     "eslint-config-standard": "^17.1.0"
   },
   "engines": {
-    "node": "18.18.2"
+    "node": "21.2.0"
   }
 }
