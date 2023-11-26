@@ -2,7 +2,6 @@ const express = require('express')
 const swaggerUi = require('swagger-ui-express')
 const specs = require('../swagger-config')
 const bodyParser = require('body-parser')
-
 const AuthController = require("./controllers/AuthController")
 const AdminController = require("./controllers/AdminController")
 

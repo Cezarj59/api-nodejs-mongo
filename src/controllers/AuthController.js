@@ -6,14 +6,6 @@ const authConfig = require('../config/auth.json');
 const UserModel = require('../models/User');
 const moment = require('moment');
 
-/**
- * @swagger
- * /cadastro:
- *   post:
- *     summary: Cadastrar um novo usuário
- *     ...
- */
-
 // Função para exibir data no fuso horário local
 function exibirDataNoFusoHorarioLocal(data) {
   // Certifique-se de que a data está em um formato válido
