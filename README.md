@@ -66,8 +66,30 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
      [PUT] https://api-escribo-x2y3.onrender.com/auth/users/:id
      ```
 
-Certifique-se de que as tecnologias necessárias estejam configuradas no seu ambiente antes de utilizar os endpoints. Você pode usar ferramentas como o Insomnia ou Postman para realizar as operações na API.
+Certifique-se de que as tecnologias necessárias estejam configuradas no seu ambiente antes de utilizar os endpoints. Você pode usar ferramentas como o __`INSOMNIA`__, __`cURL`__ ou __`POSTMAN`__ para realizar as operações na API.
 
+## Como Testar os Endpoints
+
+Você pode utilizar o cURL para testar os endpoints diretamente do terminal ou linha de comando. Abaixo estão alguns exemplos básicos:
+
+### Cadastro de Usuário
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"nome":"SeuNome", "email":"seuemail@example.com", "senha":"suasenha", "telefone":{"numero":"seunumero", "ddd":"seuddd"}}' https://api-escribo-x2y3.onrender.com/auth/cadastro
+```
+### Login
+```bash
+curl -X POST -H "Content-Type: application/json" -d '{"email":"seuemail@example.com", "senha":"suasenha"}' https://api-escribo-x2y3.onrender.com/auth/login
+
+```
+### Busca de Usuários Autenticados
+```bash
+curl -X GET -H "Authorization: Bearer TOKEN_AQUI" https://api-escribo-x2y3.onrender.com/admin/users
+
+```
+### Atualização de Usuário (Exemplo com ID "seuid")
+```bash
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer TOKEN_AQUI" -d '{"nome":"NovoNome", "email":"novoemail@example.com", "telefone":{"numero":"novonumero", "ddd":"novoddd"}}' https://api-escribo-x2y3.onrender.com/auth/users/seuid
+```
 
 # Endpoints
 
