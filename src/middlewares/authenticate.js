@@ -1,5 +1,7 @@
-const jwt = require('jsonwebtoken')
+const path = require('path');
 const authConfig = require('../config/auth.json')
+
+const jwt = require('jsonwebtoken')
 
 // Middleware de autenticação para proteger rotas
 module.exports = (req, res, next) => {
