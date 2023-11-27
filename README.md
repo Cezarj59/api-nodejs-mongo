@@ -128,7 +128,7 @@ curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer TOKEN_
 
 # Endpoints
 
-A seguir estão os endpoints disponíveis neste projeto:
+A seguir estão os endpoints disponíveis do projeto hospedado:
 
 - ## <span style="font-size:larger;">Cadastro de Usuário</span>
   - **URL:** [https://api-escribo-x2y3.onrender.com/auth/cadastro](https://api-escribo-x2y3.onrender.com/auth/cadastro)
