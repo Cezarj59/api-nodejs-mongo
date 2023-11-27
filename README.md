@@ -43,6 +43,7 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
    npm start
    # ou
    node src/server.js
+   ```
 
 
 4. Utilize os seguintes endpoints para realizar operações na API:
@@ -51,30 +52,54 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
 
 locahost:
 
-```json
+```
      [POST] https://localhost:3001/auth/cadastro
 ```
 ou
-
-```json
+```
      [POST] https://api-escribo-x2y3.onrender.com/auth/cadastro
 ```
 
    - **Autenticação de Usuário:**
-     ```
+
+ locahost:
+
+
+```
+     [POST] https://localhost:3001/auth/login
+```
+ou
+```
      [POST] https://api-escribo-x2y3.onrender.com/auth/login
-     ```
-     Nota: A busca de usuários autenticados requer autenticação via Bearer Token. Certifique-se de incluir na sua requisição: Bearer TOKEN.
+```
+-Nota: A busca de usuários autenticados requer autenticação via Bearer Token. Certifique-se de incluir na sua requisição: Bearer TOKEN.
 
    - **Busca de Usuários Autenticados:**
-     ```
+    
+ locahost:
+
+```
+     [GET] https://localhost:3001/admin/users
+```
+ou
+     
+```
      [GET] https://api-escribo-x2y3.onrender.com/admin/users
-     ```
+```
 
    - **Atualização de Usuário:**
-     ```
+
+ locahost:
+     
+```
+     [PUT] https://localhost:3001/auth/users/:id
+```
+ou
+     
+```
      [PUT] https://api-escribo-x2y3.onrender.com/auth/users/:id
-     ```
+```
+
 
 Certifique-se de que as tecnologias necessárias estejam configuradas no seu ambiente antes de utilizar os endpoints. Você pode usar ferramentas como o __`INSOMNIA`__, __`cURL`__ ou __`POSTMAN`__ para realizar as operações na API.
 
