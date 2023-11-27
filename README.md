@@ -51,12 +51,13 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
 
 locahost:
 
-     ```
+     ```json
      [POST] https://localhost:3001/auth/cadastro
+
      ```
 ou
 
-    ```
+    ```json
      [POST] https://api-escribo-x2y3.onrender.com/auth/cadastro
      ```
 
