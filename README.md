@@ -48,7 +48,12 @@ Este projeto é uma API RESTful desenvolvida em Node.js utilizando o framework E
 4. Utilize os seguintes endpoints para realizar operações na API:
 
    - **Cadastro de Usuário:**
+locahost:
      ```
+     [POST] https://localhost:3001/auth/cadastro
+     ```
+ou
+    ```
      [POST] https://api-escribo-x2y3.onrender.com/auth/cadastro
      ```
 
