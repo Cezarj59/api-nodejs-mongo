@@ -25,9 +25,9 @@ app.listen(3001, () => {
 
 // Middleware para lidar com rotas não encontradas
 app.use((req, res, next) => {
-    res.status(404).json({
+    res.status(400).json({
         error: true,
-        message: 'Endpoint não encontrado. Verifique a URL solicitada.',
-    });
+        mensagem: 'Requisição inválida. Certifique-se de enviar os dados necessários no formato JSON.',
+    });    
 });
 
